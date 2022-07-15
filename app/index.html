@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Floral Shop</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/libs/min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="icon" href="images/icons8-колибри-16.png">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="cursor">
+      <div class="cursor-follower"></div>
+    </div>
+    <div class="content">
+      <header class="header">
+        <div class="header__top">
+          <div class="container">
+            <div class="header__top-inner animate__animated animate__fadeInDown">
+
+              <div class="header__box--left">
+                <div class="header__logo">
+                  <a href="#">
+                    <span>Floral</span>Shop
+                  </a>
+                </div>
+                <div class="header__menu">
+                  <ul>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Обратная связь</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="header__box--right">
+                <div class="header__text">
+                  <a class="header__phone menu-item" href="tel:89967864799">+7 (996) 786-47-99</a>
+                  <a class="header__delivery delivery menu-item" href="#">Доставка по всей России</a>
+                  <a class="close" href="#"></a>
+                </div>
+
+                <div class="header__search-form">
+                  <form>
+                    <input type="text" placeholder="Поиск">
+                  </form>
+                </div>
+
+                <div class="header__btn">
+                  <a class="header__btn-menu icon-search" href="#" id="search"></a>
+                  <a class="header__btn-menu icon-user" href="#"></a>
+                  <a class="header__btn-menu icon-shopping-cart" href="#"></a>
+                  <div class="header__btn-menu">
+                    <div class="hamburger menu-btn" id="toggle">
+                      <div class="hamburger__span one" id="one"></div>
+                      <div class="hamburger__span two" id="two"></div>
+                      <div class="hamburger__span three" id="three"></div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="categories">
+        <div class="container">
+          <div class="categories__inner categories__menu">
+            <div class="categories__inner--left">
+              <ul class="categories__menu-list">
+
+                <li>
+                  <a href="#">
+                    Розы
+                    <ul class="categories__inner-submenu categories__submenu">
+                      <div class="categories__submenu-items">
+                        <li class="categories__submenu-item">
+                          <a href="#">Белые Розы</a>
+                        </li>
+                        <li class="categories__submenu-item">
+                          <a href="#">Красные Розы</a>
+                        </li>
+                        <li class="categories__submenu-item">
+                          <a href="#">Синие Розы</a>
+                        </li>
+                      </div>
+                    </ul>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#">
+                    Букеты
+                    <ul class="categories__inner-submenu categories__submenu">
+                      <div class="categories__submenu-items">
+                        <li class="categories__submenu-item">
+                          <a href="#">Составные букеты</a>
+                        </li>
+                        <li class="categories__submenu-item">
+                          <a href="#">Авторские букеты</a>
+                        </li>
+                        <li class="categories__submenu-item">
+                          <a href="#">Хиты продаж</a>
+                        </li>
+                        <li class="categories__submenu-item">
+                          <a href="#">Экзотические букеты</a>
+                        <li class="categories__submenu-item">
+                          <a href="#">VIP-букеты</a>
+                        </li>
+                      </div>
+                    </ul>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#">
+                    Корзины
+                    <ul class="categories__inner-submenu categories__submenu">
+                      <div class="categories__submenu-items">
+                        <li class="categories__submenu-item">
+                          <a href="#">Корзины с цветами</a>
+                        </li>
+                        <li class="categories__submenu-item">
+                          <a href="#">Корзины роз</a>
+                        </li>
+                        <li class="categories__submenu-item">
+                          <a href="#">Корзина с цветами и мягкой игрушкой</a>
+                        </li>
+                      </div>
+                    </ul>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#">
+                    Цветы
+                    <ul class="categories__inner-submenu categories__submenu">
+                      <div class="categories__submenu-items">
+                        <li class="categories__submenu-item">
+                          <a href="#">Тюльпаны</a>
+                        </li>
+                        <li class="categories__submenu-item">
+                          <a href="#">Пионы</a>
+                        </li>
+                        <li class="categories__submenu-item">
+                          <a href="#">Лилии</a>
+                        </li>
+                        <li class="categories__submenu-item">
+                          <a href="#">Гвоздики</a>
+                        </li>
+                      </div>
+                    </ul>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#">
+                    Акции
+                    <ul class="categories__inner-submenu categories__submenu">
+                      <div class="categories__submenu-items">
+                        <li class="categories__submenu-item">
+                          <a href="#">Букет 101 роза</a>
+                        </li>
+                        <li class="categories__submenu-item">
+                          <a href="#">Скидки в честь дня влюбленных!</a>
+                        </li>
+                        <li class="categories__submenu-item">
+                          <a href="#">Скидки постоянным покупателям!</a>
+                        </li>
+                      </div>
+                    </ul>
+                  </a>
+                </li>
+
+
+              </ul>
+            </div>
+
+            <div class="categories__inner--right">
+              <ul class="categories__menu-list">
+
+                <li>
+                  <a href="#">
+                    Подарки
+                    <ul class="categories__inner-submenu categories__submenu">
+                      <div class="categories__submenu-items">
+                        <li class="categories__submenu-item">
+                          <a href="#">Плюшевые игрушки</a>
+                        </li>
+                        <li class="categories__submenu-item">
+                          <a href="#">Шоколад</a>
+                        </li>
+                        <li class="categories__submenu-item">
+                          <a href="#">Открытки</a>
+                        </li>
+                        <li class="categories__submenu-item">
+                          <a href="#">Вазы</a>
+                        </li>
+                      </div>
+                    </ul>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#">
+                    Оберкти для букетов
+                    <ul class="categories__inner-submenu categories__submenu">
+                      <div class="categories__submenu-items">
+                        <li class="categories__submenu-item">
+                          <a href="#">Прозрачная обертка</a>
+                        </li>
+                        <li class="categories__submenu-item">
+                          <a href="#">Бумажная обертка</a>
+                        </li>
+                      </div>
+                    </ul>
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sales-leaders">
+        <div class="container">
+          <div class="sales-leaders__title title animate-right">Лидеры продаж</div>
+          <div class="sales-leaders__subtitle animate-right">Самые популярные товары из всех категорий нашего онлайн магазина</div>
+          <div class="sales-leaders__items" id="boxs">
+
+            <div class="sales-leaders__item box animate-bottom">
+              <div class="sales-leaders__inner">
+                <div class="sales-leaders__discount">
+                  скидка<span>-13%
+                    <div class="sales-leaders__discount-square">
+                      <span></span>
+                    </div>
+                  </span>
+                </div>
+                <div class="sales-leaders__images">
+                  <a href="#"><img src="images/sales-leaders-1.jpeg" alt="sales leaders images"></a>
+                </div>
+                <div class="sales-leaders__description">
+                  Букет из 11 роз
+                </div>
+                <div class="sales-leaders__price">
+                  <div class="sales-leaders__price--new">999₽</div>
+                  <div class="sales-leaders__price--old">1130₽</div>
+                </div>
+                <div class="sales-leaders__hidden">
+                  <div class="sales-leaders__bottom">
+                    <a class="botton-buy" href="#">
+                      <div class="sales-leaders__text">Купить</div>
+                      <div class="sales-leaders__icon icon-shopping-cart"></div>
+                    </a>
+                    <a class="sales-leaders__buy" href="#">Купить в один клик</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sales-leaders__item box animate-bottom">
+              <div class="sales-leaders__inner">
+                <div class="sales-leaders__discount">
+                  скидка<span>-15%
+                    <div class="sales-leaders__discount-square">
+                      <span></span>
+                    </div>
+                  </span>
+                </div>
+                <div class="sales-leaders__images">
+                  <a href="#"><img src="images/sales-leaders-2.jpeg" alt="sales leaders images"></a>
+                </div>
+                <div class="sales-leaders__description">
+                  Авторский букет
+                </div>
+                <div class="sales-leaders__price">
+                  <div class="sales-leaders__price--new">2499₽</div>
+                  <div class="sales-leaders__price--old">2900₽</div>
+                </div>
+                <div class="sales-leaders__hidden">
+                  <div class="sales-leaders__bottom">
+                    <a class="botton-buy" href="#">
+                      <div class="sales-leaders__text">Купить</div>
+                      <div class="sales-leaders__icon icon-shopping-cart"></div>
+                    </a>
+                    <a class="sales-leaders__buy" href="#">Купить в один клик</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sales-leaders__item box animate-bottom">
+              <div class="sales-leaders__inner">
+                <div class="sales-leaders__discount">
+                  скидка<span>-37%
+                    <div class="sales-leaders__discount-square">
+                      <span></span>
+                    </div>
+                  </span>
+                </div>
+                <div class="sales-leaders__images">
+                  <a href="#"><img src="images/sales-leaders-3.jpeg" alt="sales leaders images"></a>
+                </div>
+                <div class="sales-leaders__description">
+                  Плюшевый мишка
+                </div>
+                <div class="sales-leaders__price">
+                  <div class="sales-leaders__price--new">1199₽</div>
+                  <div class="sales-leaders__price--old">1650₽</div>
+                </div>
+                <div class="sales-leaders__hidden">
+                  <div class="sales-leaders__bottom">
+                    <a class="botton-buy" href="#">
+                      <div class="sales-leaders__text">Купить</div>
+                      <div class="sales-leaders__icon icon-shopping-cart"></div>
+                    </a>
+                    <a class="sales-leaders__buy" href="#">Купить в один клик</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sales-leaders__item box animate-bottom">
+              <div class="sales-leaders__inner">
+                <div class="sales-leaders__discount">
+                  скидка<span>-30%
+                    <div class="sales-leaders__discount-square">
+                      <span></span>
+                    </div>
+                  </span>
+                </div>
+                <div class="sales-leaders__images">
+                  <a href="#"><img src="images/sales-leaders-4.jpeg" alt="sales leaders images"></a>
+                </div>
+                <div class="sales-leaders__description">
+                  Букет сто и одна роза
+                </div>
+                <div class="sales-leaders__price">
+                  <div class="sales-leaders__price--new">4999₽</div>
+                  <div class="sales-leaders__price--old">6499₽</div>
+                </div>
+                <div class="sales-leaders__hidden">
+                  <div class="sales-leaders__bottom">
+                    <a class="botton-buy" href="#">
+                      <div class="sales-leaders__text">Купить</div>
+                      <div class="sales-leaders__icon icon-shopping-cart"></div>
+                    </a>
+                    <a class="sales-leaders__buy" href="#">Купить в один клик</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sales-leaders__item box">
+              <div class="sales-leaders__inner">
+                <div class="sales-leaders__discount">
+                  скидка<span>-42%
+                    <div class="sales-leaders__discount-square">
+                      <span></span>
+                    </div>
+                  </span>
+                </div>
+                <div class="sales-leaders__images">
+                  <a href="#"><img src="images/sales-leaders-5.jpeg" alt="sales leaders images"></a>
+                </div>
+                <div class="sales-leaders__description">
+                  Шоколадная корзина
+                </div>
+                <div class="sales-leaders__price">
+                  <div class="sales-leaders__price--new">1800₽</div>
+                  <div class="sales-leaders__price--old">2500₽</div>
+                </div>
+                <div class="sales-leaders__hidden">
+                  <div class="sales-leaders__bottom">
+                    <a class="botton-buy" href="#">
+                      <div class="sales-leaders__text">Купить</div>
+                      <div class="sales-leaders__icon icon-shopping-cart"></div>
+                    </a>
+                    <a class="sales-leaders__buy" href="#">Купить в один клик</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sales-leaders__item box">
+              <div class="sales-leaders__inner">
+                <div class="sales-leaders__discount">
+                  скидка<span>-23%
+                    <div class="sales-leaders__discount-square">
+                      <span></span>
+                    </div>
+                  </span>
+                </div>
+                <div class="sales-leaders__images">
+                  <a href="#"><img src="images/sales-leaders-6.jpeg" alt="sales leaders images"></a>
+                </div>
+                <div class="sales-leaders__description">
+                  Букет из тюльпанов
+                </div>
+                <div class="sales-leaders__price">
+                  <div class="sales-leaders__price--new">2400₽</div>
+                  <div class="sales-leaders__price--old">2900₽</div>
+                </div>
+                <div class="sales-leaders__hidden">
+                  <div class="sales-leaders__bottom">
+                    <a class="botton-buy" href="#">
+                      <div class="sales-leaders__text">Купить</div>
+                      <div class="sales-leaders__icon icon-shopping-cart"></div>
+                    </a>
+                    <a class="sales-leaders__buy" href="#">Купить в один клик</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sales-leaders__item box">
+              <div class="sales-leaders__inner">
+                <div class="sales-leaders__discount">
+                  скидка<span>-8%
+                    <div class="sales-leaders__discount-square">
+                      <span></span>
+                    </div>
+                  </span>
+                </div>
+                <div class="sales-leaders__images">
+                  <a href="#"><img src="images/sales-leaders-7.jpeg" alt="sales leaders images"></a>
+                </div>
+                <div class="sales-leaders__description">
+                  Ваза для цветов
+                </div>
+                <div class="sales-leaders__price">
+                  <div class="sales-leaders__price--new">800₽</div>
+                  <div class="sales-leaders__price--old">850₽</div>
+                </div>
+                <div class="sales-leaders__hidden">
+                  <div class="sales-leaders__bottom">
+                    <a class="botton-buy" href="#">
+                      <div class="sales-leaders__text">Купить</div>
+                      <div class="sales-leaders__icon icon-shopping-cart"></div>
+                    </a>
+                    <a class="sales-leaders__buy" href="#">Купить в один клик</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sales-leaders__item box">
+              <div class="sales-leaders__inner">
+                <div class="sales-leaders__discount">
+                  скидка<span>-10%
+                    <div class="sales-leaders__discount-square">
+                      <span></span>
+                    </div>
+                  </span>
+                </div>
+                <div class="sales-leaders__images">
+                  <a href="#"><img src="images/sales-leaders-8.jpeg" alt="sales leaders images"></a>
+                </div>
+                <div class="sales-leaders__description">
+                  Букет синих роз
+                </div>
+                <div class="sales-leaders__price">
+                  <div class="sales-leaders__price--new">1800₽</div>
+                  <div class="sales-leaders__price--old">2000₽</div>
+                </div>
+                <div class="sales-leaders__hidden">
+                  <div class="sales-leaders__bottom">
+                    <a class="botton-buy" href="#">
+                      <div class="sales-leaders__text">Купить</div>
+                      <div class="sales-leaders__icon icon-shopping-cart"></div>
+                    </a>
+                    <a class="sales-leaders__buy" href="#">Купить в один клик</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="sales-leaders__loadMore" id="loadMore">
+            Показать еще
+          </div>
+
+        </div>
+      </section>
+
+      <section class="new-items">
+        <div class="container">
+          <div class="new-items__title title animate-left">Новые позиции</div>
+          <div class="new-items__subtitle animate-left">Обратите внимание на наши новые товары</div>
+          <div class="new-items__items" id="newBoxs">
+
+            <div class="new-items__item newBox animate-bottom">
+              <div class="new-items__inner">
+                <div class="new-items__discount">
+                  скидка<span>5%
+                    <div class="new-items__discount-square">
+                      <span></span>
+                    </div>
+                  </span>
+                </div>
+                <div class="new-items__images">
+                  <a href="#"><img src="images/new-items-1.jpeg" alt="new-items images"></a>
+                </div>
+                <div class="new-items__description">
+                  Букет из лилий
+                </div>
+                <div class="new-items__price">
+                  <div class="new-items__price--new">2500₽</div>
+                  <div class="new-items__price--old">2600₽</div>
+                </div>
+                <div class="new-items__hidden">
+                  <div class="new-items__bottom">
+                    <a class="botton-buy" href="#">
+                      <div class="new-items__text">Купить</div>
+                      <div class="new-items__icon icon-shopping-cart"></div>
+                    </a>
+                    <a class="new-items__buy" href="#">Купить в один клик</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="new-items__item newBox animate-bottom">
+              <div class="new-items__inner">
+                <div class="new-items__discount">
+                  скидка<span>-25%
+                    <div class="new-items__discount-square">
+                      <span></span>
+                    </div>
+                  </span>
+                </div>
+                <div class="new-itemss__images">
+                  <a href="#"><img src="images/new-items-2.jpeg" alt="new-items images"></a>
+                </div>
+                <div class="new-items__description">
+                  Медведь из роз
+                </div>
+                <div class="new-items__price">
+                  <div class="new-items__price--new">2250₽</div>
+                  <div class="new-items__price--old">3000₽</div>
+                </div>
+                <div class="new-items__hidden">
+                  <div class="sales-leaders__bottom">
+                    <a class="botton-buy" href="#">
+                      <div class="new-items__text">Купить</div>
+                      <div class="new-items__icon icon-shopping-cart"></div>
+                    </a>
+                    <a class="new-items__buy" href="#">Купить в один клик</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="new-items__item newBox animate-bottom">
+              <div class="new-items__inner">
+                <div class="new-items__discount">
+                  скидка<span>-10%
+                    <div class="new-items__discount-square">
+                      <span></span>
+                    </div>
+                  </span>
+                </div>
+                <div class="new-items__images">
+                  <a href="#"><img src="images/new-items-3.jpeg" alt="new-items images"></a>
+                </div>
+                <div class="new-items__description">
+                  Декоративные свечи
+                </div>
+                <div class="new-items__price">
+                  <div class="new-items__price--new">540₽</div>
+                  <div class="new-items__price--old">600₽</div>
+                </div>
+                <div class="new-items__hidden">
+                  <div class="new-items__bottom">
+                    <a class="botton-buy" href="#">
+                      <div class="new-items__text">Купить</div>
+                      <div class="new-items__icon icon-shopping-cart"></div>
+                    </a>
+                    <a class="new-items__buy" href="#">Купить в один клик</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="new-items__item newBox">
+              <div class="new-items__inner">
+                <div class="new-items__discount">
+                  скидка<span>-15%
+                    <div class="new-items__discount-square">
+                      <span></span>
+                    </div>
+                  </span>
+                </div>
+                <div class="new-items__images">
+                  <a href="#"><img src="images/new-items-4.jpeg" alt="new-items images"></a>
+                </div>
+                <div class="new-items__description">
+                  Цветы в горшках
+                </div>
+                <div class="new-items__price">
+                  <div class="new-items__price--new">1200₽</div>
+                  <div class="new-items__price--old">1380₽</div>
+                </div>
+                <div class="new-items__hidden">
+                  <div class="new-items__bottom">
+                    <a class="botton-buy" href="#">
+                      <div class="new-items__text">Купить</div>
+                      <div class="new-items__icon icon-shopping-cart"></div>
+                    </a>
+                    <a class="new-items__buy" href="#">Купить в один клик</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="new-items__item newBox">
+              <div class="new-items__inner">
+                <div class="new-items__discount">
+                  скидка<span>-15%
+                    <div class="new-items__discount-square">
+                      <span></span>
+                    </div>
+                  </span>
+                </div>
+                <div class="new-items__images">
+                  <a href="#"><img src="images/new-items-5.jpeg" alt="new-items images"></a>
+                </div>
+                <div class="new-items__description">
+                  Воздушные шарики
+                </div>
+                <div class="new-items__price">
+                  <div class="new-items__price--new">85₽</div>
+                  <div class="new-items__price--old">100₽</div>
+                </div>
+                <div class="new-items__hidden">
+                  <div class="new-items__bottom">
+                    <a class="botton-buy" href="#">
+                      <div class="new-items__text">Купить</div>
+                      <div class="new-items__icon icon-shopping-cart"></div>
+                    </a>
+                    <a class="new-items__buy" href="#">Купить в один клик</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="new-items__loadMore" id="newItemsLoadMore">
+            Показать еще
+          </div>
+
+        </div>
+      </section>
+
+      <section class="projects">
+        <div class="container">
+          <div class="projects__title title animate-left">Услуги</div>
+          <a class="projects__goToProjects animate-left" href="#">Перейти к нашим услугам</a>
+
+          <div class="projects__cards">
+
+            <div class="projects__card animate-bottom">
+              <div class="projects__card-inner">
+                <img src="images/projects-card-1.jpg" alt="projects-card">
+                <div class="projects__card-link">
+                  <div class="projects__card-title">Наш флорист готов лично помочь вам с выбором цветов, а также подсказать, какие из них лучше сочетаются и будут наиболее эффектно выглядеть</div>
+                  <div class="projects__card-info">
+                    <a class="projects__card-details" href="#">Узнать подробнее</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <div class="menu">
+        <div class="close-menu">
+          <ion-icon name='close'></ion-icon>
+        </div>
+
+        <div class="nav">
+          <ul class="main-menu">
+            <li class="main-menu-item sidebar__title">Каталог</li>
+
+            <li class="main-menu-item">
+              <a href="#">Розы
+                <ion-icon name='add'></ion-icon>
+              </a>
+              <ul class="sidebar__submenu">
+                <li class="submenu-item">
+                  <a href="#">Белые розы</a>
+                </li>
+                <li class="submenu-item">
+                  <a href="#">Красные розы</a>
+                </li>
+                <li class="submenu-item">
+                  <a href="#">Синие розы</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="main-menu-item">
+              <a href="#">Букеты
+                <ion-icon name='add'></ion-icon>
+              </a>
+              <ul class="sidebar__submenu">
+                <li class="submenu-item">
+                  <a href="#">Составные букеты</a>
+                </li>
+                <li class="submenu-item">
+                  <a href="#">Авторские букеты</a>
+                </li>
+                <li class="submenu-item">
+                  <a href="#">Хиты продаж</a>
+                </li>
+                <li class="submenu-item">
+                  <a href="#">Экзотические букеты</a>
+                </li>
+                <li class="submenu-item">
+                  <a href="#">VIP-букеты</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="main-menu-item">
+              <a href="#">Корзины
+                <ion-icon name='add'></ion-icon>
+              </a>
+              <ul class="sidebar__submenu">
+                <li class="submenu-item">
+                  <a href="#">Корзины с цветами</a>
+                </li>
+                <li class="submenu-item">
+                  <a href="#">Корзины роз</a>
+                </li>
+                <li class="submenu-item">
+                  <a href="#">Корзина с цветами и мягкой игрушкой</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="main-menu-item">
+              <a href="#">Цветы
+                <ion-icon name='add'></ion-icon>
+              </a>
+              <ul class="sidebar__submenu">
+                <li class="submenu-item">
+                  <a href="#">Тюльпаны</a>
+                </li>
+                <li class="submenu-item">
+                  <a href="#">Пионы</a>
+                </li>
+                <li class="submenu-item">
+                  <a href="#">Лилии</a>
+                </li>
+                <li class="submenu-item">
+                  <a href="#">Гвоздики</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="main-menu-item">
+              <a href="#">Акции
+                <ion-icon name='add'></ion-icon>
+              </a>
+              <ul class="sidebar__submenu">
+                <li class="submenu-item">
+                  <a href="#">Букет 101 роза</a>
+                </li>
+                <li class="submenu-item">
+                  <a href="#">Скидки в честь дня влюбленных!</a>
+                </li>
+                <li class="submenu-item">
+                  <a href="#">Скидки постоянным покупателям!</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="main-menu-item">
+              <a href="#">Подарки
+                <ion-icon name='add'></ion-icon>
+              </a>
+              <ul class="sidebar__submenu">
+                <li class="submenu-item">
+                  <a href="#">Плюшевые игрушки</a>
+                </li>
+                <li class="submenu-item">
+                  <a href="#">Шоколад</a>
+                </li>
+                <li class="submenu-item">
+                  <a href="#">Открытки</a>
+                </li>
+                <li class="submenu-item">
+                  <a href="#">Вазы</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="main-menu-item">
+              <a href="#">Обертки для букетов
+                <ion-icon name='add'></ion-icon>
+              </a>
+              <ul class="sidebar__submenu">
+                <li class="submenu-item">
+                  <a href="#">Прозрачная обертка</a>
+                </li>
+                <li class="submenu-item">
+                  <a href="#">Бумажная обертка</a>
+              </ul>
+            </li>
+
+            <li class="main-menu-item sidebar__title">Контакты</li>
+            <li class="main-menu-item sidebar__title">Центр поддержки</li>
+            <li class="main-menu-item sidebar__title">Личный кабинет</li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__inner-title title">Floral Shop</div>
+
+          <div class="footer__items">
+
+            <div class="footer__item">
+              <div class="footer__item-title">Контакты</div>
+              <ul class="footer__item-list">
+                <li><a href="#">О нас</a></li>
+                <li><a href="tel:89967864799">+7 (996) 786-47-99</a></li>
+                <li><a href="mailto:norugin@gmail.com">norugin@gmail.com</a></li>
+              </ul>
+            </div>
+
+            <div class="footer__item">
+              <div class="footer__item-title">Служба поддержки</div>
+              <ul class="footer__item-list">
+                <li><a href="#">Обратная связь</a></li>
+                <li><a href="#">Навигация по сайту</a></li>
+                <li><a href="#">Условия обслуживания</a></li>
+              </ul>
+            </div>
+
+            <div class="footer__item">
+              <div class="footer__item-title">Личный кабинет</div>
+              <ul class="footer__item-list">
+                <li><a href="#">Личный кабинет</a></li>
+                <li><a href="#">История заказов</a></li>
+                <li><a href="#">Новости</a></li>
+              </ul>
+            </div>
+
+          </div>
+          <div class="footer__bottom">
+            <div class="footer__bottom-copyright">© 2022 Floral Shop</div>
+            <div class="footer__bottom-privacyPolicy">Политика конфиденциальности</div>
+            <div class="footer__bottom-termsOfUse">Условия пользования</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
